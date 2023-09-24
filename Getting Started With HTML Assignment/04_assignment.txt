@@ -1,0 +1,7 @@
+In web development, tags and elements are fundamental components used to structure and define the content of an HTML document. They are essential for creating a well-formed and semantically meaningful web page.
+
+Tags are HTML keywords enclosed in angle brackets '<>' that define the purpose and behavior of an HTML element. They provide instructions to the web browser regarding how to render and interpret the content within the tags. Tags are divided into opening and closing tags, with the content placed between them. For example, <p> is the opening tag for a paragraph, while </p> is the closing tag.
+
+Elements are made up of tags along with the content they enclose. They represent various types of content, such as headings, paragraphs, images, links, tables, etc. Each element contains an opening tag, the content, and a closing tag. Elements can be nested inside one another to create a hierarchical structure.
+
+Ex: <p>This is a paragraph element.</p>

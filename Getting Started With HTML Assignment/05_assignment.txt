@@ -1,0 +1,3 @@
+The DOCTYPE declaration is an instruction that tells the web browser which version of HTML to use when rendering a web page. It is placed at the top of an HTML document, before the <html> tag. The DOCTYPE declaration is not an HTML element; it is an instruction that informs the browser about the markup language being used.
+
+This declaration tells the browser to interpret the document as HTML5. There are different DOCTYPE declarations for different versions of HTML, such as HTML4.01, XHTML 1.0, etc. The DOCTYPE declaration ensures that the web page is interpreted correctly by the browser, providing consistent rendering across different browsers and versions.

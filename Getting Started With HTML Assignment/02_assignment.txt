@@ -1,0 +1,10 @@
+The purpose of comments in HTML is to add descriptive information or notes within the HTML code that are not displayed on the webpage. Comments allow web developers to explain their code, make reminders, or temporarily disable certain sections without affecting the output of the webpage.
+
+To add a comment in HTML, you can use the <!-- and --> tags.
+
+In this example, there are three instances where comments are used:
+<!-- This is a comment -->: This is a single-line comment providing some information or context. It won't be rendered on the webpage.
+
+<!-- This is a multiline comment. It can span multiple lines. -->: This is a multiline comment providing detailed information or explanations about the code.
+
+<!-- <p>This paragraph is temporarily disabled.</p> -->: This is a commented-out code block. The paragraph within the comment tags won't be displayed on the webpage. It can be useful for temporarily disabling or commenting out certain sections of code during development.
