@@ -1,0 +1,24 @@
+1.Absolute Positioning:
+Syntax- 
+    .absolute-positioned {
+        position: absolute;
+    }
+
+* When an element is positioned absolutely, it is removed from the normal document flow. 
+It is positioned relative to its nearest positioned ancestor (an ancestor that has a position other than static), 
+or to the initial containing block if no positioned ancestor is found.
+* Absolute positioning allows you to precisely place an element anywhere on the page, regardless of its normal position in the document flow.
+* Other elements in the document flow will ignore the space occupied by absolutely positioned elements.
+* If no positioned ancestor is found, absolute positioning is relative to the initial containing block, which is usually the viewport.
+
+
+2.Relative Positioning:
+Syntax- 
+        .relative-positioned {
+            position: relative;
+        }
+
+* When an element is positioned relatively, it remains in the normal document flow, but its position can be adjusted relative to its normal position.
+* Other elements in the document flow are not affected by the relative positioning of an element.
+* The space the element would have occupied in the normal flow is still reserved.
+* If you move a relatively positioned element, it will affect the position of other elements on the page.
