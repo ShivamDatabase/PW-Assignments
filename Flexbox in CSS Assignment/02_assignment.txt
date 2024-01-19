@@ -1,0 +1,13 @@
+Q2. Explain the role of the following key properties in Flexbox layout model.
+Ans: 
+    1. justify-content: The justify-content property in Flexbox is used to control the alignment of flex items along the main axis of the flex container. It determines how the extra space or insufficient space along the main axis is distributed. 
+    There are several values for justify-content, including flex-start, flex-end, centre, Space-between, space-evenly and a space-around.
+    Example: 
+
+    2. align-items: 
+    
+    3. gap: 
+    
+    4. flex-direction: 
+    
+    5. flex-wrap: 
