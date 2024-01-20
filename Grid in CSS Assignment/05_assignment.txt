@@ -1,0 +1,63 @@
+In CSS Grid, 'justify-items' and 'justify-self' are properties used to align grid items along the inline (horizontal) axis within their respective grid containers. 
+Let's break down the differences between these two properties with code examples.
+
+1. **justify-items:**
+   - This property is applied to the grid container and defines the default alignment for all grid items within that container.
+   - It accepts values like 'start', 'end', 'center', 'stretch', etc., which determine how the items should be aligned horizontally.
+
+   Example CSS:
+
+   .grid-container {
+     display: grid;
+     grid-template-columns: repeat(3, 100px);
+     justify-items: center; /* Default alignment for all items */
+   }
+
+   .grid-item {
+     height: 50px;
+     background-color: lightblue;
+   }
+   
+
+   Example HTML:
+
+   <div class="grid-container">
+     <div class="grid-item">Item 1</div>
+     <div class="grid-item">Item 2</div>
+     <div class="grid-item">Item 3</div>
+   </div>
+   
+
+2. **justify-self:**
+   - This property is applied to individual grid items within the container, allowing you to override the default alignment set by `justify-items` for a specific item.
+   - It also accepts values like `start`, `end`, `center`, `stretch`, etc.
+
+   Example CSS:
+
+   .grid-container {
+     display: grid;
+     grid-template-columns: repeat(3, 100px);
+     justify-items: center; /* Default alignment for all items */
+   }
+
+   .grid-item {
+     height: 50px;
+     background-color: lightblue;
+     justify-self: end; /* Overrides default alignment for this item */
+   }
+   
+
+   Example HTML:
+
+   <div class="grid-container">
+     <div class="grid-item">Item 1</div>
+     <div class="grid-item">Item 2</div>
+     <div class="grid-item">Item 3</div>
+   </div>
+   ```
+
+In this example, the 'justify-items' property sets the default alignment for all items in the grid container to 'center'. 
+However, the 'justify-self' property on the specific '.grid-item' overrides this default and aligns that particular item to the end of the grid cell.
+
+Keep in mind that these properties are applicable to the inline axis (horizontal alignment). 
+If you are working with the block axis (vertical alignment), you would use 'align-items' and 'align-self' properties instead.
