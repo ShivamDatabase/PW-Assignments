@@ -1,0 +1,16 @@
+JavaScript has five main primitive data types:
+
+1. Number – Represents numeric values (integers and decimals).  
+Example: let age = 25;
+
+2. String – Represents text enclosed in quotes.  
+Example: let name = "John";
+
+3. Boolean – Represents logical values: true or false.  
+Example: let isLoggedIn = true;
+
+4. Undefined – A variable that is declared but not assigned a value.  
+Example: let x;
+
+5. Null – Represents an intentional absence of value.  
+Example: let data = null;

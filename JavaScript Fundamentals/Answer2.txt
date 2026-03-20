@@ -1,0 +1,9 @@
+Q.2 Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+A.2 JavaScript is a scripting language used to add interactivity and dynamic behavior to web pages, while HTML is a markup language used to define the structure and content of a webpage. Use HTML to create elements like headings, buttons, and forms, and use JavaScript to make those elements interactive and responsive to user actions. HTML is like the body of a website, and JavaScript is like the brain that controls how it behaves.
+Example: 
+    -HTML for creating a button. JavaScript for handling what happens when the button is clicked.
+
+    -HTML for creating forms. JavaScript for validating form inputs (like checking email or password).
+
+    -HTML for displaying content. JavaScript for updating or changing content dynamically without reloading the page.
