@@ -1,0 +1,39 @@
+Q.2 Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+A.2JavaScript operators are categorized based on their functionality, meaning what type of operation they perform. Each category is used for a specific purpose in programming.
+
+1. Arithmetic Operators – Used to perform mathematical calculations.
+ +, -, *, /, %
+Example:
+5 + 3 = 8
+
+2. Assignment Operators – Used to assign values to variables.
+=, +=, -=, *=
+Example:
+x = 5
+x += 2 // (x becomes 7)
+
+3. Comparison Operators – Used to compare two values and return true or false.
+==, ===, !=, >, <
+Example:
+5 > 3 // true
+
+4. Logical Operators – Used to combine conditions.
+&&, ||, !
+Example:
+true && false // false
+
+5. Bitwise Operators – Used to perform operations on binary numbers.
+&, |, ^, <<, >>
+Example:
+5 & 1 // 1
+
+**6. String Operators** – Used to join strings.
+ +
+Example:
+"Hello" + " World" // "Hello World"
+
+7. Conditional (Ternary) Operator – Used as a shortcut for if-else.
+ ? :  
+Example:
+age >= 18 ? "Adult" : "Minor"

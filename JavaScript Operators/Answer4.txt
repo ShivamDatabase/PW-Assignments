@@ -1,0 +1,23 @@
+Q.4 Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+important?
+A.4 Operator precedence and associativity in JavaScript determine how an expression is evaluated when it contains multiple operators.
+Importance:
+It helps in writing correct and predictable expressions. Avoids logical errors in calculations.Reduces the need for excessive parentheses. Makes code easier to understand and debug.
+
+
+Operator Precedence – Refers to the priority of operators. Operators with higher precedence are executed before those with lower precedence.
+Example:
+let result = 5 + 3 * 2;
+Here, * has higher precedence than + , so:
+ 3 * 2 = 6, then 5 + 6 = 11
+
+Operator Associativity – Refers to the direction in which operators of the same precedence are evaluated (left to right or right to left).
+Example (Left to Right):
+let result = 10 - 5 - 2;
+First 10 - 5 = 5, then 5 - 2 = 3
+
+Assignment operators (=) work right to left:
+Example (Right to Left):
+let x, y;
+x = y = 5;
+First y = 5, then x = 5
